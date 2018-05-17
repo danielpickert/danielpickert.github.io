@@ -1,0 +1,30 @@
+body {
+	background-color: black;
+	font-family: 'Rubik', sans-serif;
+	color: white;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+}
+.title {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+/*	height: 100%;
+  	width: 100%;*/
+  	/*display: flex;*/
+  	align-self: center;
+  	justify-content: center;
+}
+
+footer {
+/*	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+*//*	grid-row: 1;
+	grid-column: 1 / span 3;*/
+	align-self: flex-start;
+}
