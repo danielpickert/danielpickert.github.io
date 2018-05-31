@@ -4,27 +4,40 @@ body {
 	color: white;
 }
 
-.container {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 100vh;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #000000;
+  padding: 10px;
 }
-.title {
-	color: white;
-	font-family: 'Rubik', sans-serif;
-/*	height: 100%;
-  	width: 100%;*/
-  	/*display: flex;*/
-  	align-self: center;
-  	justify-content: center;
+
+.grid-item {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+.name {
+  font-size: 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
 }
 
 footer {
-/*	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-*//*	grid-row: 1;
-	grid-column: 1 / span 3;*/
 	align-self: flex-start;
+}
+
+img {
+  border-radius: 10px;
 }
