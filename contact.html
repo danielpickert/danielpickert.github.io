@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Contact</title>
+	<link href="https://fonts.googleapis.com/css?family=Londrina+Shadow|Rubik" rel="stylesheet">
+</head>
+<body id="contact">
+<h1>Need to get in touch?</h1>
+
+<h3>Email me (dpickert1@gmail.com), call me (407) 454-4066, or fill out the form below:</h3>
+
+<form id="contactDaniel" method="post" action="mailer.php">
+	<div class="field">
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name" required>
+	</div>
+
+	<div class="field">
+	<label for="email">Email:</label>
+	<input type="email" id="email" name="email" required>
+	</div>
+
+	<div class="field">
+	<label for="message">Message:</label>
+	<textarea id="message" name="message" required></textarea>
+	</div>
+
+	<div class="field">
+	<button type="submit">Send</button>	
+	</div>
+</body>
+</html>
+
+

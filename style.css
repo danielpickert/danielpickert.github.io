@@ -1,4 +1,5 @@
-body {
+/*index.html*/
+body#index {
 	background-color: black;
 	font-family: 'Rubik', sans-serif;
 	color: white;
@@ -25,6 +26,10 @@ body {
   font-size: 40px;
 }
 
+img {
+  border-radius: 10px;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -34,10 +39,34 @@ a:hover {
   color: blue;
 }
 
-footer {
-	align-self: flex-start;
+.alignleft {
+  float: left;
+  margin-left: 15px;
 }
 
-img {
-  border-radius: 10px;
+.alignright {
+  float: right;
+  margin-right: 15px;
+}
+
+
+
+
+/*contact.html*/
+body#contact {
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+/*work.html*/
+body#work {
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  text-align: center;
 }
