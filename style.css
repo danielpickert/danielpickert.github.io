@@ -61,12 +61,18 @@ body#contact {
 }
 
 
-
-
 /*work.html*/
 body#work {
   background-color: black;
   font-family: 'Rubik', sans-serif;
   color: white;
   text-align: center;
+}
+
+/*iPhone 6/7/8 display*/
+@media screen (max-width: 400px) {
+
+  .grid-container {
+      height: 90vh;
+  }
 }
