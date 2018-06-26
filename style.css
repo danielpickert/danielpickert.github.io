@@ -1,15 +1,23 @@
 /*index.html*/
 body#index {
-	background-color: black;
+/*	background-color: black;*/
+  height: 100%;
+  width: 100%;
 	font-family: 'Rubik', sans-serif;
 	color: white;
+  background-image: url("https://i.imgur.com/JO1dC7C.jpg"), url("https://i.imgur.com/KCcrCh7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #000000;
+/*  background-color: #000000;*/
   padding: 10px;
+
+  
 }
 
 .grid-item {
@@ -36,7 +44,7 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #0077C0;
 }
 
 .alignleft {
@@ -48,9 +56,6 @@ a:hover {
   float: right;
   margin-right: 15px;
 }
-
-
-
 
 /*contact.html*/
 body#contact {
@@ -69,10 +74,20 @@ body#work {
   text-align: center;
 }
 
-/*iPhone 6/7/8 display*/
-@media screen (max-width: 400px) {
 
+
+/*iPhone 6/7/8 and iPad*/
+@media (max-width: 450px) {
   .grid-container {
-      height: 90vh;
+    height: 85vh;
+  }
+
+  .grid-item {
+    font-size: 50px;
+  }
+  .name {
+    font-size: 70px;
   }
 }
+
+
