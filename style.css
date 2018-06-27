@@ -40,6 +40,7 @@ body#index {
 
 .name {
   font-size: 40px;
+  font-weight: bold;
 }
 
 footer img {
@@ -141,8 +142,6 @@ body#work {
   #GitHub {
     width: 25%;
   }
-
-
 
 }
 
