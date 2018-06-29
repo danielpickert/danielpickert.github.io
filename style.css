@@ -120,7 +120,7 @@ body#work {
   }
 
   .grid-item img {
-    min-height: 50%;
+    max-height: 50%;
     width: 100%;
   }
 
@@ -136,9 +136,6 @@ body#work {
     margin-left: 7%;
   }
 
-  .WhiteHouse img {
-    height: 60%;
-  }
   #GitHub {
     width: 25%;
   }
