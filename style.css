@@ -190,7 +190,7 @@ label > .label-body {
 }
 
 .field a {
-  padding: 20px;
+  padding: 10px;
   text-decoration: none;
   color: black;
   font-size: 20px;
@@ -200,7 +200,10 @@ label > .label-body {
   border-radius: 10px;
   display: inline-block;
   text-align: center;
+}
 
+.field a:hover {
+  color: #0077C0;
 }
 
 #message {
