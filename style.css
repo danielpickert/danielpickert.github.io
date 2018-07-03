@@ -197,7 +197,7 @@ label > .label-body {
   }
 
   .grid-container {
-    height: 50vh;
+    height: 100vh;
 
   }
 
@@ -211,7 +211,7 @@ label > .label-body {
   }
 
   .grid-item img {
-    max-height: 25%;
+    max-height: 10%;
     width: 100%;
   }
 
