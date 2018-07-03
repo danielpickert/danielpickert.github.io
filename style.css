@@ -95,7 +95,7 @@ a:hover {
 
 /*contact.html*/
 body#contact {
-  background-color: black;
+  background-color: #1b1b1b;
   font-family: 'Rubik', sans-serif;
   color: white;
   text-align: center;
@@ -104,10 +104,19 @@ body#contact {
 
 /*work.html*/
 body#work {
-  background-color: black;
+  background-color: #1b1b1b;
   font-family: 'Rubik', sans-serif;
   color: white;
   text-align: center;
+}
+
+/*resume.html*/
+body#resume {
+  background-color: #1b1b1b;
+}
+
+body#about {
+  background-color: #1b1b1b;
 }
 
 /*Forms on Contact page*/
