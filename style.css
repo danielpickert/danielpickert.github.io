@@ -198,6 +198,7 @@ label > .label-body {
   border-radius: 10px;
   display: inline-block;
   text-align: center;
+  -webkit-appearance: none;
 
 }
 
@@ -252,9 +253,7 @@ label > .label-body {
     width: 25%;
   }
 
-  .field button {
-    color: white;
-  }
+
 
 }
 
