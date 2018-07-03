@@ -18,7 +18,7 @@ body#index {
   grid-template-columns: 1fr 1fr 1fr;
 /*  background-color: #000000;*/
   padding: 10px;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .grid-item {
@@ -34,8 +34,16 @@ body#index {
 .grid-item img {
  /* min-height: 50%;*/
   width: 70%;
-  max-width: 320px;
+  /*max-width: 320px;*/
   border-radius: 10px;
+}
+
+.WhiteHouse img {
+  width: 60%;
+}
+
+.alaska img {
+  width: 70%;
 }
 
 
@@ -61,17 +69,12 @@ a:hover {
 .alignleft {
   float: left;
   margin-left: 15px;
-  margin-bottom: 20px;
 }
 
 .alignright {
   float: right;
   margin-right: 15px;
   height: 30%;
-}
-
-.WhiteHouse img {
-  height: 90%;
 }
 
 #GitHub {
@@ -201,6 +204,7 @@ label > .label-body {
 #message {
   width: 40%;
 }
+
 
 
 /*iPhone 6/7/8 and iPad*/
