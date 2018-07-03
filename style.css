@@ -183,6 +183,8 @@ label > .label-body {
 
 .field button {
   border-radius: 10px;
+  display: inline-block;
+  text-align: center;
 }
 
 #message {
