@@ -48,12 +48,12 @@ footer img {
 }
 
 
-#index a {
+a {
   color: white;
   text-decoration: none;
 }
 
-#index a:hover {
+a:hover {
   color: #0077C0;
 }
 
@@ -110,6 +110,7 @@ body#work {
   text-align: center;
 }
 
+/*Forms on Contact page*/
 input[type="email"],
 input[type="number"],
 input[type="search"],
