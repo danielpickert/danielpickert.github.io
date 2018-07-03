@@ -38,6 +38,7 @@ body#index {
   border-radius: 10px;
 }
 
+
 .name {
   font-size: 40px;
   font-weight: bold;
@@ -194,6 +195,7 @@ label > .label-body {
   border-radius: 10px;
   display: inline-block;
   text-align: center;
+
 }
 
 #message {
@@ -222,8 +224,12 @@ label > .label-body {
   }
 
   .grid-item img {
-    max-height: 10%;
+    max-height: 70%;
     width: 100%;
+  }
+
+  .WhiteHouse img {
+    max-height: 55%;
   }
 
   .alignleft {
@@ -240,6 +246,10 @@ label > .label-body {
 
   #GitHub {
     width: 25%;
+  }
+
+  .fieldbutton {
+    color: white;
   }
 
 }
