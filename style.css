@@ -32,7 +32,7 @@ body#index {
 }
 
 .grid-item img {
-  min-height: 50%;
+ /* min-height: 50%;*/
   width: 70%;
   max-width: 320px;
   border-radius: 10px;
