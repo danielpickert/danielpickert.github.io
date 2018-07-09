@@ -121,6 +121,9 @@ body#resume {
 
 body#about {
   background-color: #1b1b1b;
+  color: white;
+  line-height: 3em;
+  font-family: 'Rubik', sans-serif;
 }
 
 /*Forms on Contact page*/
@@ -194,6 +197,7 @@ label > .label-body {
   text-decoration: none;
   color: black;
   font-size: 20px;
+  -webkit-appearance: none;
 }
 
 .field button {
@@ -208,6 +212,13 @@ label > .label-body {
 
 #message {
   width: 40%;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
 }
 
 
@@ -256,8 +267,6 @@ label > .label-body {
   #GitHub {
     width: 25%;
   }
-
-
 
 }
 
