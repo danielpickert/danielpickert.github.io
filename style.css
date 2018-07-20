@@ -66,6 +66,11 @@ a:hover {
   color: #0077C0;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 25px;
+}
+
 p {
   margin: 50px 50px 50px 50px;
   text-align: justify;
