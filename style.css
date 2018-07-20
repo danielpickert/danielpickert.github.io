@@ -76,6 +76,10 @@ p {
   text-align: justify;
 }
 
+h4 {
+  margin: 0px 125px 0px 125px;
+}
+
 .alignleft {
   float: left;
   margin-left: 15px;
