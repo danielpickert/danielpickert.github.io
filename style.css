@@ -66,6 +66,11 @@ a:hover {
   color: #0077C0;
 }
 
+p {
+  margin: 50px 50px 50px 50px;
+  text-align: justify;
+}
+
 .alignleft {
   float: left;
   margin-left: 15px;
