@@ -122,7 +122,9 @@ h4 {
 }
 
 
-
+body {
+  margin: 0;
+}
 
 /*contact.html*/
 body#contact {
@@ -130,6 +132,7 @@ body#contact {
   font-family: 'Rubik', sans-serif;
   color: white;
   text-align: center;
+  /*line-height: 3em;*/
 }
 
 
@@ -149,10 +152,70 @@ body#resume {
 body#about {
   background-color: #1b1b1b;
   color: white;
-  line-height: 3em;
   font-family: 'Rubik', sans-serif;
-  margin: 50px 125px 0px 125px;
   text-align: justify;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about_container {
+  margin: 50px 125px 0px 125px;
+  line-height: 3em;
+}
+
+header {
+  background: #0077C0;
+}
+
+header::after {
+  content: '';
+  display: table;
+/*  clear: both;*/
+}
+
+nav {
+  text-align: center;
+  /*float: right;*/
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+/*  margin-left: 70px;*/
+  padding: 20px;
+  position: relative;
+}
+
+nav a {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: #1b1b1b;
+}
+
+nav a:before {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #1b1b1b;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
 }
 
 
