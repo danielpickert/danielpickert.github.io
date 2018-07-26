@@ -320,7 +320,7 @@ button,
 
 
 /*iPhone 6/7/8 and iPad*/
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
   #index {
     background-position: 41% 59%;
   }
@@ -363,7 +363,46 @@ button,
   #GitHub {
     width: 25%;
   }
-  
+
+  .about_container {
+    margin: 15%;
+    text-align: left;
+  }
+
+  #magic {
+    display: none;
+  }
+
+  #gators {
+    display: none;
+  }
+
+  #work h1 {
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    margin-bottom: 0
+    padding: 9%;
+  }
+
+  #work h4 {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  #work h5 {
+    margin: 10%;
+  }
+
+  #work h5 {
+    margin: 10%;
+  }
+
+  #Recipe, #FanPage, #Office {
+    margin-bottom: 100px;
+    height: 90%;
+    width: 90%;
+  }
 
 }
 
