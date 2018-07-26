@@ -314,6 +314,7 @@ label > .label-body {
   float: none;
 }
 
+
 button,
 [type="button"],
 [type="reset"],
@@ -321,6 +322,9 @@ button,
   -webkit-appearance: button;
 }
 
+#Recipe, #FanPage, #Office {
+  margin-bottom: 100px;
+}
 
 
 /*iPhone 6/7/8 and iPad*/
