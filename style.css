@@ -353,12 +353,8 @@ button,
   }
 
   .grid-item img {
-    max-height: 70%;
+    height: 55%;
     width: 100%;
-  }
-
-  .WhiteHouse img {
-    max-height: 55%;
   }
 
   .alignleft {
