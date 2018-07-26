@@ -164,7 +164,9 @@ body#about {
 .about_container {
   margin: 50px 125px 0px 125px;
   line-height: 3em;
+  letter-spacing: .5px;
 }
+
 
 header {
   background: #0077C0;
