@@ -315,6 +315,7 @@ label > .label-body {
 }
 
 
+
 button,
 [type="button"],
 [type="reset"],
@@ -324,6 +325,8 @@ button,
 
 #Recipe, #FanPage, #Office {
   margin-bottom: 100px;
+  height: 90%;
+  width: 90%;
 }
 
 
