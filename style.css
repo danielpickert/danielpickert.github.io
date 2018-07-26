@@ -310,6 +310,10 @@ label > .label-body {
   width: 40%;
 }
 
+#contact .alignright {
+  float: none;
+}
+
 button,
 [type="button"],
 [type="reset"],
