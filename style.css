@@ -167,6 +167,7 @@ body#about {
   letter-spacing: .5px;
 }
 
+/* ORIGINAL NAV BAR ----------------------- */
 
 header {
   background: #0077C0;
@@ -175,12 +176,12 @@ header {
 header::after {
   content: '';
   display: table;
-/*  clear: both;*/
+ /* clear: both; */
 }
 
 nav {
   text-align: center;
-  /*float: right;*/
+  /* float: right; */
 }
 
 nav ul {
@@ -210,81 +211,91 @@ nav a:hover {
 nav a::before {
   content: '';
   display: block;
-  height: 3px;
+  height: 2px;
   width: 100%;
   background-color: #1b1b1b;
   top: 0;
   width: 0%;
-/*  position: absolute;*/
-  transition: all ease-in-out 250ms;
+  transition: all ease-in-out 1s;
 }
 
 nav a:hover::before {
   width: 100%;
 }
 
-
-/*Forms on Contact page*/
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-textarea,
-select {
-  height: 30px;
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 5px;
-
-  }
-
-  /* Removes awkward default styles on some inputs for iOS */
-input[type="email"],
-input[type="number"],
-input[type="search"],
-input[type="text"],
-input[type="tel"],
-input[type="url"],
-input[type="password"],
-input[type="button"],
-input[type="submit"],
-textarea {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none; }
-textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px; }
-input[type="email"]:focus,
-input[type="number"]:focus,
-input[type="search"]:focus,
-input[type="text"]:focus,
-input[type="tel"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-textarea:focus,
-select:focus {
-  border: 1px solid #33C3F0;
-  outline: 0; }
-label,
-legend {
-  display: block;
-  margin-bottom: .5rem;
-  font-weight: 600; }
-fieldset {
-  padding: 0;
-  border-width: 0; }
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline; }
-label > .label-body {
+.cool-link {
   display: inline-block;
-  margin-left: .5rem;
-  font-weight: normal; }
+  color: white;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #1b1b1b;;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  transition: all ease-in-out 250ms;
+}
+
+.cool-link:hover:before {
+  width: 0;
+}
+
+/* END OF ORIGINAL NAV BAR --------------------------- */
+
+/* NEW NAV BAR --------------------------- */
+
+/* html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+nav ul {
+  list-style: none;
+  font-size: 2em;
+} */
+/* 
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  color: ;
+  margin: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  
+}
+
+nav ul li a:after {
+  content: '';
+  display: block;
+  left: 0px;
+  background-color: #1b1b1b;
+  width: 0;
+  transition: 250ms;
+  border-bottom: 3px solid #1b1b1b;
+}
+
+nav ul li a:hover {
+  color:#1b1b1b;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+} */
+
+/* END OF NEW NAV BAR --------------------------------*/
+
 
 .field {
   padding: 10px;
