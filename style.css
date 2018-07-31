@@ -424,5 +424,9 @@ button,
     width: 90%;
   }
 
+  .cool-link:hover::after {
+    display: none;
+  }
+
 }
 
