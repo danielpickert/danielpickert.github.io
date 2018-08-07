@@ -9,7 +9,7 @@ body#index {
   url("https://i.imgur.com/KCcrCh7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  /* background-position: center center; */
   background-blend-mode: hard-light;
   margin: 0;
   min-height: 103vh;
@@ -98,6 +98,7 @@ h4 {
 .alignleft {
   float: left;
   margin-left: 15px;
+
 }
 
 .alignright {
@@ -315,7 +316,11 @@ button,
 /*iPhone 6/7/8 and iPad*/
 @media screen and (max-width: 450px) {
   #index {
-    background-position: 41% 59%;
+    background-position: 43% 57%;
+  }
+
+  #index-overlay {
+    height: 102%;
   }
 
   .grid-container {
