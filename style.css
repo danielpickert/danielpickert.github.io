@@ -336,7 +336,7 @@ button,
   -webkit-appearance: button;
 }
 
-#Recipe, #FanPage, #Office {
+#Recipe, #FanPage, #Office, #Rap {
   margin-bottom: 100px;
   height: 90%;
   width: 90%;
@@ -418,7 +418,7 @@ button,
     margin: 10%;
   }
 
-  #Recipe, #FanPage, #Office {
+  #Recipe, #FanPage, #Office, #Rap {
     margin-bottom: 100px;
     height: 90%;
     width: 90%;
