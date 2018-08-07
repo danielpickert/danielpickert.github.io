@@ -43,7 +43,7 @@ body#index {
   display: flex;
   background-color: rgba(255, 255, 255, 0);
   padding: 0px;
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -71,7 +71,6 @@ body#index {
 }
 
 
-
 footer img {
   width: 40px;
 }
@@ -95,16 +94,22 @@ h4 {
   margin: 0px 125px 0px 125px;
 }
 
-.alignleft {
-  float: left;
-  margin-left: 15px;
-
+footer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .alignright {
-  float: right;
+  /* float: left; */
   margin-right: 15px;
-  height: 30%;
+  text-align: left;
+
+}
+
+.alignleft {
+  /* float: right; */
+  margin-left: 15px;
+  text-align: right;
 }
 
 #GitHub {
@@ -319,9 +324,6 @@ button,
     background-position: 43% 57%;
   }
 
-  #index-overlay {
-    height: 102.5%;
-  }
 
   .grid-container {
     height: 100vh;
