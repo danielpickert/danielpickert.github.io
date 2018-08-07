@@ -54,6 +54,7 @@ body#index {
   width: 70%;
   /*max-width: 320px;*/
   border-radius: 10px;
+  display: none;
 }
 
 .WhiteHouse img {
@@ -97,6 +98,7 @@ h4 {
 #index footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 80px;
 }
 
 .alignright {
