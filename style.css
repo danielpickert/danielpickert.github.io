@@ -94,7 +94,7 @@ h4 {
   margin: 0px 125px 0px 125px;
 }
 
-footer {
+#index footer {
   display: flex;
   justify-content: space-between;
 }
@@ -102,14 +102,17 @@ footer {
 .alignright {
   /* float: left; */
   margin-right: 15px;
-  text-align: left;
-
+  text-align: right;
 }
 
 .alignleft {
   /* float: right; */
   margin-left: 15px;
-  text-align: right;
+  text-align: left;
+}
+
+#contactfooter .alignright {
+  text-align: center;
 }
 
 #GitHub {
@@ -326,7 +329,7 @@ button,
 
 
   .grid-container {
-    height: 100vh;
+    height: 70vh;
 
   }
 
@@ -340,20 +343,22 @@ button,
   }
 
   .grid-item img {
-    height: 55%;
+    height: 60%;
     width: 100%;
+    display: none;
+  }
+
+  #index footer {
+    display: block;
   }
 
   .alignleft {
-    float: none;
-    text-align: center;
-
+    display: none;
   }
 
   .alignright {
-    float: none;
     text-align: center;
-    margin-left: 7%;
+    margin-bottom: 1px;
   }
 
   #GitHub {
