@@ -5,13 +5,31 @@ body#index {
   /*width: 100%;*/
 	font-family: 'Rubik', sans-serif;
 	color: white;
-  background-image: url("https://i.imgur.com/JO1dC7C.jpg"), url("https://i.imgur.com/KCcrCh7.jpg");
+  background-image: url("https://i.imgur.com/JO1dC7C.jpg"), 
+  url("https://i.imgur.com/KCcrCh7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   background-blend-mode: hard-light;
   margin: 0;
-  min-height: 100vh;
+  min-height: 103vh;
+  top: 0;
+  bottom: 0;
+  z-index: -10;
+  position: relative;
 }
+
+#index-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+  background-color: rgba(0,0,0,0.6);
+}
+
+
 
 .grid-container {
   display: grid;
@@ -52,6 +70,8 @@ body#index {
   font-weight: bold;
 }
 
+
+
 footer img {
   width: 40px;
 }
@@ -63,7 +83,7 @@ a {
 }
 
 a:hover {
-  color: #0077C0;
+  color: #004DF0;
 }
 
 h1 {
@@ -245,57 +265,6 @@ nav a:hover::before {
 .cool-link:hover:before {
   width: 0%;
 }
-
-/* END OF ORIGINAL NAV BAR --------------------------- */
-
-/* NEW NAV BAR --------------------------- */
-
-/* html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-nav ul {
-  list-style: none;
-  font-size: 2em;
-} */
-/* 
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  position: relative;
-  text-decoration: none;
-  color: ;
-  margin: 20px;
-  padding-top: 10px;
-  padding-right: 10px;
-  
-}
-
-nav ul li a:after {
-  content: '';
-  display: block;
-  left: 0px;
-  background-color: #1b1b1b;
-  width: 0;
-  transition: 250ms;
-  border-bottom: 3px solid #1b1b1b;
-}
-
-nav ul li a:hover {
-  color:#1b1b1b;
-}
-
-nav ul li a:hover:after {
-  width: 100%;
-} */
-
-/* END OF NEW NAV BAR --------------------------------*/
-
 
 .field {
   padding: 10px;
